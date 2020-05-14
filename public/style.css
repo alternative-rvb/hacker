@@ -6,7 +6,7 @@ body {
   font-family: sans-serif;
   text-align: center;
   margin: 0 auto;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 main {
@@ -17,7 +17,7 @@ main {
 
 .container {
   padding: 1rem;
-  width: 25vw;
+  width: 80vw;
   margin: auto;
 }
 
@@ -27,6 +27,7 @@ main {
   padding: 1rem;
   color: rgb(180, 73, 62);
 }
+
 img {
   display: block;
   width: 100%;
@@ -41,4 +42,10 @@ img {
 
 .caught {
   font-size: 3rem;
+}
+
+@media all and (min-width: 1200px){
+  .container {
+    width: 40vw;
+  }
 }
