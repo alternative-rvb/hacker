@@ -1,27 +1,24 @@
+* {
+  box-sizing: border-box;
+}
 body {
   font-family: sans-serif;
   margin: auto;
   width: 50%;
   text-align: center;
+  margin: 0 auto;
+  height: 100vh;
 }
 
-.navbar {
-  background-color: #313236;
-  border-radius: 2px;
+main {
+  padding: 2rem;;
+  height: 100%;
 }
+div {
 
-.navbar a {
-  color: #aaa;
-  display: inline-block;
-  font-size: 15px;
-  padding: 10px;
-  text-decoration: none;
+  border: 0.5rem solid #C05245;
 }
-
-.navbar a:hover {
-  color: #ffffff;
-}
-
 img {
   width: 50%;
 }
+
