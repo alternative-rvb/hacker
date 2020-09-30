@@ -1,3 +1,3 @@
-https://alternative-rvb.gitlab.io/hacker
+https://alternative-rvb.github.io/hacker/
 
-Sensibilisation à la cybersécurité
+Sensibilisation à la cyber sécurité
