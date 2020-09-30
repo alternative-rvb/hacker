@@ -24,7 +24,7 @@ main {
 .box {
   background: #222;
   margin: auto;
-  padding: 1rem;
+  padding: 2rem;
   color: rgb(180, 73, 62);
 }
 
@@ -36,12 +36,51 @@ img {
   margin: auto;
 }
 
-.ransom {
+.text-medium {
   font-size: 2rem;
 }
+.text-large {
+  font-size: 4rem;
+}
 
-.caught {
-  font-size: 3rem;
+.text-white {
+  color: white;
+  opacity: 0.75;
+}
+
+.border-red {
+  border: 2px solid rgb(180, 73, 62);
+}
+
+.relative {
+  position: relative;
+}
+
+.look {
+  width: 100%;
+  height: 100%;
+  font-size: 25rem;
+  color: white;
+  opacity: 0;
+  transition: all 1s;
+}
+
+.look:hover {
+  opacity: 0.2;
+}
+
+.absolute {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+hr {
+  width: 25px;
+  border:0;
+  border-top-style: dotted;
+  border-top-width: 0.2rem; 
 }
 
 @media all and (min-width: 1200px){
